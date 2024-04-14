@@ -19,7 +19,7 @@ def generate_story():
         prompt = data.get('prompt')
     elif request.method == 'GET':
         # Get the prompt from the query string
-        prompt = "generate story."
+        prompt = "Rédigez-moi une histoire."
     # Generate the story using the GPT-3.5 model
     response = openai.Completion.create(
         engine="davinci-002",

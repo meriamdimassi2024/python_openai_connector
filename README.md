@@ -1,10 +1,8 @@
 # Flask OpenAI assiatant Generator
 
  The Flask OpenAI assiatant using the OpenAI GPT-3.5 model.
-
-## Installation
-
-1. Clone the repository:
+  
+## Clone the repository:
 
 ```bash
 git clone <repository_url>
